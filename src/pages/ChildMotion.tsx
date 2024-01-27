@@ -22,9 +22,9 @@ const item = {
 const ChildMotion = () => {
   return (
     <>
-      <h1>staggerChildren Example </h1>
+      <h1 className="text-balance text-3xl ml-10">staggerChildren Example </h1>
       <motion.div
-        className="bg-orange-700 size-60 flex flex-wrap gap-6 p-4 justify-center items-center"
+        className="bg-orange-700 size-60 flex flex-wrap gap-6 p-4 justify-center items-center ml-10"
         variants={container}
         initial="hidden"
         animate="show"

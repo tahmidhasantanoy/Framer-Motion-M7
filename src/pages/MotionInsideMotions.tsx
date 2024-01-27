@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
 
-
-
 /* 
 //some tricks : 
 1.parent & children's obejt's key must be same
@@ -27,7 +25,7 @@ const fadeParent = {
 const MotionInsideMotions = () => {
   return (
     <>
-      <h1>MotionInsideMotions</h1>
+      <h1 className="text-center">MotionInsideMotions</h1>
       <div className="flex justify-center items-center">
         <motion.div
           className="bg-blue-600 size-40 flex flex-wrap justify-center items-center p-3 gap-3"

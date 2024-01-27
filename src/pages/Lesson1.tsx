@@ -16,7 +16,7 @@ const fadeParent = {
 const Lesson1 = () => {
   return (
     <>
-      <div className="my-6 mb-28">
+      <div className="my-6 mb-28 text-center">
         <motion.h2
           className="text-5xl"
           variants={fadeParent}
