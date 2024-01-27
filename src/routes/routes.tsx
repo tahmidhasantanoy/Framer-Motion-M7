@@ -3,6 +3,7 @@ import Layout from "../MainLayout/Layout";
 import Home from "../pages/Home/Home";
 import Gesture from "../pages/Gesture";
 import UseAnimationHooks from "../pages/UseAnimationHooks";
+import UseCycleHook from "../pages/UseCycleHook";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path : "animationhooks",
         element : <UseAnimationHooks/>
+      },
+      {
+        path : "cyclehook",
+        element : <UseCycleHook/>
       }
     ],
   },
