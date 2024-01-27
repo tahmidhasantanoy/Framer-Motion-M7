@@ -1,5 +1,4 @@
 import { createBrowserRouter } from "react-router-dom";
-import Lesson1 from "../pages/Lesson1";
 import Layout from "../MainLayout/Layout";
 import Home from "../pages/Home/Home";
 import Gesture from "../pages/Gesture";

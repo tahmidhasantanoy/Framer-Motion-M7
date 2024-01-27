@@ -23,6 +23,7 @@ const Lesson1 = () => {
           initial="hidden"
           animate="visible"
           transition={{ duration: 10 }}
+          whileTap={{font: "bold"}}
         >
           Hey Am a <span className="text-purple-800">"Fade"</span> Example
         </motion.h2>
