@@ -40,6 +40,9 @@ const ChildMotion = () => {
         <motion.div
           className="bg-lime-600 size-14"
           variants={item}
+          drag
+          dragConstraints={{ left: -100, right: 100, top: -100, bottom: 100 }} //dragable area
+          dragSnapToOrigin={true}
         ></motion.div>
         <motion.div
           className="bg-lime-600 size-14"

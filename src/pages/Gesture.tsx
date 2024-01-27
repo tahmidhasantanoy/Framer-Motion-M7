@@ -10,7 +10,6 @@ const Gesture = () => {
     },
   };
 
-  
   return (
     <div className="">
       <div className="flex justify-center">
@@ -19,6 +18,8 @@ const Gesture = () => {
           variants={buttonGesture}
           whileHover="hover"
           whileTap="tap"
+          onHoverStart={() => console.log("start")}
+          onHoverEnd={() => console.log("end")}
         >
           Submit
         </motion.button>
